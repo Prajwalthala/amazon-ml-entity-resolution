@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Python cache
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Outputs
+output/
+
+# Dataset
+dataset/
+
+# Large/local challenge resources
+student_resource/
+student_resource.zip
+student_resource/
+dataset/
+venv/
+output/
