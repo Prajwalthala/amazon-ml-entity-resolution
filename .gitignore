@@ -20,16 +20,14 @@ venv/
 # Environment variables
 .env
 
-# Outputs
-output/
+# Dataset files
+dataset/train/*.tsv
+dataset/test/*.tsv
 
-# Dataset
-dataset/
+# Output files
+output/*
+!output/.gitkeep
 
 # Large/local challenge resources
 student_resource/
 student_resource.zip
-student_resource/
-dataset/
-venv/
-output/
